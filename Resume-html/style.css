@@ -1,0 +1,184 @@
+
+body{
+    font-family: 'Gabarito', cursive;
+}
+.container{
+    width: 1200px;
+    background-color: #EEE;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1100px;
+}
+h5{
+    margin:  0px;
+}
+
+.name{
+    background-color: white;
+    border-radius: 15px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.myName{
+    float: left;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.myDetails{
+    float: right;
+    font-size: 25px;
+    margin-top: 17px;
+}
+.filler{
+    width: 200px;
+    height: 15px;
+    clear: both;
+    background-color: #EEE;
+}
+.heading{
+   margin-left: 25px;
+   font-size: 20px;
+}
+.ten, .twel{
+    width: 500px;
+    height:300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.ten{
+    float: left;
+    margin-left: 50px;
+}
+.twel{
+    float: right;
+    margin-right: 50px;
+}
+.class{
+    font-size: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.perc{
+    font-size: 100px;
+    margin-left: 156px;
+    margin-top: auto;
+}
+
+.comp, .compp{
+    width: 500px;
+    height: 110px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.comp{
+    float: left;
+    margin-left: 50px;
+}
+.compp{
+    float: right;
+    margin-right: 50px;
+}
+
+.company{
+color: #09f;
+font-size: 30px;
+margin-top: 5px;
+margin-left: 15px;
+}
+.role{
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.what{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+   width: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+.reach{
+    float: left;
+    font-size: 25px;
+}
+.image{
+    margin-top: 10px;
+    float: right;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+.perc {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #09f;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #09f;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #09f;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #09f;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: #09f;
+    }
+  }
